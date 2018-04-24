@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 5, 2018, 11:38:05 PM
+    Author     : Asma
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar-default {
+    margin: 0;
+    background-color: #eceaed;
+  
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+ 
+}
+.navbar-default ul li a{
+    color: #777;
+}
+.navbar-header a{
+    color: #777;
+    font-size: 24px;
+}
+.navbar-right>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0;
+}
+.navbar-nav{
+    padding-left: 200px;
+   
+}
+.caf{
+    font-size: 12px;
+    
+    
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+.main{
+    height: 400px;
+    width: 100%;
+    background-color: green;
+}
+.banner{
+  
+    height: 600px;
+    background-attachment: fixed;
+    
+}
+.service{
+    margin: 0;
+    padding: 0;
+    background-color: #eceaed;
+    height: 500px;
+    width: 100%;
+    
+    
+}
+.dup{
+    width: 30%; 
+    height: 300px;
+    float: left;
+    background: #eceaed;
+    margin:20px;
+}
+.duplex{
+    text-align: center;
+}
